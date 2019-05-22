@@ -1,0 +1,20 @@
+<script type="text/javascript">
+
+	//// IIFY way
+	for (var i = 1; i <= 3; i++) {
+	    (function(index) {
+	        setTimeout(function() { console.log(index); }, i * 1000);
+	    })(i);
+	}
+
+	//// Other way
+	for (x = 1; x <= 5; ++x) {
+	  setDelay(x);
+	}
+
+	function setDelay(x) {
+	  setTimeout(function(){
+	    console.log(x);
+	  }, 1000);
+	}
+</script>
