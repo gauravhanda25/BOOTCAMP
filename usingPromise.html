@@ -1,0 +1,45 @@
+<html>
+    <body>
+        <h1>Promises Assignment</h1>
+        <p>Scriptless test automation is one of the solutions to maximize the scalability of test automation. It enables the testers and business users to automate test cases without worrying about the coding. It helps to achieve faster results and reduces the time expended to understand the code. Explore its benefits</p>
+        <div>
+            <textarea id="comments">
+
+            </textarea>
+            <p id="comments-list"></p>
+            <button onclick="checkComment()">Comment</button>
+        </div>
+        <script>
+                var notAllowedWords = ['shit', 'sex', 'fuck'];
+                function getCommentStatus() {
+                    return new Promise((resolve, reject) => {
+                                    var userComment = document.getElementById('comments').value;
+                                    var userCommentArr = userComment.split(' ');
+                                    var flag = false;
+                                    userCommentArr.forEach(element => {
+                                        if(notAllowedWords.indexOf(element) > -1) {
+                                            flag = true;
+                                        }                                       
+                                    });
+
+                                    if(flag){
+                                        reject("Some of the words are not allowed to use in comments");
+                                    } else {
+                                        resolve(userComment);
+                                    }
+                                });
+                }
+                checkComment = () => {
+                    getCommentStatus()
+                    .then(msg =>{
+                        var commentList = document.getElementById('comments-list').innerHTML;
+                        document.getElementById('comments-list').innerHTML = (commentList) ? commentList+"<br>"+msg : "" +"<br>"+msg;
+
+                    })
+                    .catch(err => {
+                        alert(err);
+                    })
+                } 
+            </script>
+    </body>
+</html>
