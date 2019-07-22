@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES5 Prototype</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var customerCart = {};
+
+		// find product for customer in cart
+		function findProductInCart (id, pId) {
+			if(pId) {
+				if(customerCart[id]) {
+					var items = customerCart[id];
+					if(items.find(e => e.pId == pId)) {
+						return items.findIndex(e => e.pId == pId)
+					} else {
+						return false;
+					}
+				}
+			} else {
+				if(customerCart[id]) {
+					return true
+				} else {
+					return false
+				}
+			}
+		}
+
+		// cart class
+		function Cart(id) {
+			this.cartId = id;
+		}
+
+		// Product class
+		function Product(pId, name, price, description ) {
+			this.pId = pId;
+			this.name = name;
+			this.price = price;
+			this.description = description;
+		}
+
+		// Product objects
+		var Jeans = new Product(1, 'Jeans', 2000, 'Rugged Jeans');
+		var Shirt = new Product(2, 'Shirt', 1200, 'Slim fit white striped shirt');
+
+		// Add Product in customer cart
+		Cart.prototype.addProduct = function (product, qty) {
+			var uniqueCartId = this.cartId;
+			var productIndex = findProductInCart(uniqueCartId, product.pId);
+			if(productIndex) {
+				customerCart[uniqueCartId][productIndex].qty += qty;
+			} else if(productIndex === 0) {
+				customerCart[uniqueCartId][productIndex].qty += qty;
+				console.log("Product: "+product.name +" removed from cart!")
+			} else {
+				if(!customerCart[uniqueCartId]) {
+					customerCart[uniqueCartId] = []
+				}
+				customerCart[uniqueCartId].push({pId: product.pId, qty: qty, name: product.name})
+			}
+
+			console.log("Product: "+product.name +" added to cart!")
+		}
+
+		// Remove Product from customer cart
+		Cart.prototype.removeProduct = function (product, qty) {
+			var uniqueCartId = this.cartId;
+			var productIndex = findProductInCart(uniqueCartId, product.pId);
+			if(productIndex) {
+				customerCart[uniqueCartId][productIndex].qty -= qty;
+				console.log("Product: "+product.name +" removed from cart!")
+			} else if(productIndex === 0) {
+				customerCart[uniqueCartId][productIndex].qty -= qty;
+				console.log("Product: "+product.name +" removed from cart!")
+			} else {
+				console.log('Product doesnt exist in cart');
+			}
+		}
+
+		// Render Products of customer
+		Cart.prototype.renderProducts = function () {
+			var uniqueCartId = this.cartId;
+			var productIndex = findProductInCart(uniqueCartId);
+			if(productIndex) {
+				customerCart[uniqueCartId].forEach(function (obj){
+					console.log('Product Name: '+obj.name+' ||  Qty: '+obj.qty);
+				})
+			} else {
+				console.log('You dont have any product in cart');
+			}
+		}
+
+		// Customer class
+		function Customer (cusId, name, address, emailId) {
+			Cart.call(this, cusId+"-"+name);
+			this.customerId = cusId;
+			this.name = name;
+			this.address = address;
+			this.emailId = emailId;
+		}
+
+		// Customer prototype
+		Customer.prototype = Object.create(Cart.prototype);
+
+		// Customer object
+		var Aman = new Customer(1, 'Aman', 'Mohali, India', 'amanarora@gmail.com');
+		Aman.addProduct(Jeans, 2);
+		Aman.renderProducts();
+		Aman.addProduct(Shirt, 3);
+		Aman.renderProducts();
+
+		Aman.removeProduct(Jeans, 1);
+		Aman.addProduct(Jeans, 3);
+
+		Aman.renderProducts();
+
+
+	</script>
+</body>
+</html>
