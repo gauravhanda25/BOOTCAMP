@@ -1,0 +1,642 @@
+
+@media(max-width:1366px){
+	.button{padding:10px;}
+	.timeline-detail .header-unselect-btn{padding:0px 15px!important;}
+	.treat-sumry {width:60%;}
+	.treat-sumry.profile-treat-sumry {width:100%;}
+	ul.nav li a{padding:18px 8px 10px 8px!important;}
+	.cash-drawer-history {float: left!important;width: 100%;margin-top: 30px;}
+}
+@media(max-width:1250px){
+	.button{display:block; text-align:center;}
+	.edit-form-outer .row a.resetpwd{padding:10px; font-size:11px;}
+	.navbar-right li a{padding:0px 10px!important;}
+	.setting i{margin-left:-6px;}
+	.patient-right .title span{width:100%;}
+	.app-history{margin-top:24px;}
+	.patient-right .title{border:none;}
+	.timeline-detail .header-unselect-btn{padding:0px 5px!important;width:100%; text-align:center;margin-bottom:5px;}
+	.timeline-left img{height:auto;}
+	.treat-sumry {width:100%;}
+	.drag-drop-3col-table .drag-discrip{width:80%;padding-left:30px;}
+	.drag-drop-3col-table .drag-number{width:18%!important;}
+	.returning-customers #container{margin-left:-30px;}
+	.returning-customers #chartContainer{overflow:hidden;}
+	.pro-name-section{width:224px;}
+	/********* new-design-changes *********/
+	.merge-steps li a {display: block;padding: 0 10px 16px;}
+	.default-input, .custom-input, .removable-input{width:47.4%;}
+	/********* new-timeline **********/
+	.trac-info{margin-top:15px!important;}
+	
+	.right-menus-a{width: 29px!important;}
+	.access-portal-label{min-width: 82px;}
+	.filter-multiselect ul.multiselect-container{max-width:962px!important;}
+	.proc-action-div-outer{overflow-x:auto;overflow-y:hidden;}
+	/****** new setting *********/
+	.setting-container{padding: 35px 35px;}
+	/******* new-survey *********/
+	.juvly-container{padding: 35px 35px;}
+}
+@media(max-width:1200px){
+	.profile-detail-left{margin-bottom:50px;}
+	.setting-left-menu{width: 20%;}
+	.setting-setion{width: 76%;}
+	/*************** Two Factor Authentication *********************/
+	.select-authentiation-label{margin-bottom:20px;}
+	.barcode-img, .authe-icons{width:100%!important;}
+	.proc-action-div-outer{overflow-x:auto;overflow-y:hidden;}
+	.member-program{padding-right:15px!important;}
+	.wallet-setting{padding-left:15px!important;}
+}
+
+@media (min-width:991px) and (max-width:1200px){
+	.gift-amount{top: 6px;width: 72px;}
+	.gift-amount-span{font-size:14px;}
+	.gift-amount-label{font-size:26px;}
+	.gift-card-logo{top:72px;}
+}
+
+
+@media(max-width:1150px){
+	.pro-name-section{width:182px;}
+	
+	.right-menus .setting i{margin-left:0px;}
+	.right-menus .setting span{display:none;}
+	.right-menus .header-unselect-btn{padding:0px 0px!important;width:42px;text-align:center;}
+	.right-menus .header-select-btn.logout{padding:0px 13px !important;}
+	ul.nav li a{padding:10px 4px 10px 13px;}
+	
+	/*********header-changes***********/
+	.main-filter .title > span{width:100%;}
+	.main-filter .title > form{padding:0px;}
+
+	ul.nav li a{padding:18px 10px 10px 10px;}
+	.merge-steps{clear:both;padding-top:10px;}
+	.merge-pro-data-img{margin-bottom:15px;}
+	/********* new-timeline **********/
+	.pro-pic-outer img{margin-right: 15px;}
+	.add-field-list{height:300px;overflow:auto;}
+	.setting-tabs a{padding: 15px 7px;}
+	/****** new setting *********/
+	.setting-setion{min-height:inherit;}
+}
+@media(min-width:768px) and (max-width:1150px){
+.main-navbar{position:absolute;left:0px;right:0px;top:56px;background:#fff;border-top:1px solid #ececec;border-bottom:1px solid #ececec;
+padding-left: 30px !important;padding-right: 30px !important;}
+#content {padding-top: 127px!important;}
+.main-filter{top:109px!important;}
+.inventory-menu-fixed{top:106px;}
+.inventory-title-fixed{top:170px;}
+.inventory-desktop-th{top: 223px;}
+.profile-title{top:110px;}
+.main-navbar{text-align:right;}
+.main-navbar li{float:none;display:inline-block!important;}
+ul.nav > li > a{font-size:13px;}
+ul.nav > li > a:hover{background:none;}
+/********* new-design-changes *********/
+.total-patients{width:100%;}
+.right-create-patient{float:right;}		
+.patient-responsive {
+    padding-top: 139px!important;
+}
+.srch-outer{text-align:left;padding-left:5px;}
+.srch-outer{width:64%;}
+.right-create-patient{padding-left:0px;}
+.navbar-form.search{margin-right:0px;}
+.filter-count{margin-right:3px;}
+.filter-outer #apply-filter i{display:none;}
+/************** duplicate-patient *************/
+.duplicate-patient-title{padding-top:10px;}
+.duplicate-patient-title .srch-outer {width:inherit;text-align: right;float: right;}
+.default-input, .custom-input, .removable-input{width:100%;margin-right:0px;}
+	/* patient alphabet */
+.patient-alpha{top:209px;margin-bottom:0px;}
+.right-menus-a{width:40px!important;}
+}
+@media(max-width:1050px){
+	.main-filter{position: static!important;}
+	.main-filter .filter-outer {padding: 13px 0!important;}
+	.main-filter .title {padding: 5px 0!important;}
+	header{margin-bottom:0px;position:static!important;}
+	.mobile-patient-head{display:table-row;}
+	.desktop-patient-head, .inventory-desktop-th{display:none;}
+	.patient-responsive, .inverntory-main-table{padding-top:0px!important;}
+	.inventory-menu-fixed, .inventory-title-fixed, .inventory-desktop-th{position: static;width:100%!important;}
+	.inverntory-main-table-th{visibility:visible;}
+	.table-responsive {padding-top:0px!important;}
+	.main-filter{padding-top:0px!important;}
+	.inventory-menu-fixed{margin-bottom:0px!important;padding-top:0px!important;}
+	.popup-title{right:0px;}
+	.trac-right-btn-outer a {display: block;margin-bottom: 10px;text-align: center;width: 100%;}
+	.procedure-name-time{width:70%;}
+	.pro-name-section{widtH:85%;max-width: 163px;}
+	.pro-name-section h4{  white-space: nowrap;  overflow: hidden;text-overflow: ellipsis; }
+	.profile-title{background: #fff none repeat scroll 0 0;padding-top:0px;position: static;width: 100%;}
+	.profile-wrapper{padding-top:0px;}
+	.subs-section{width:100%!important;}
+
+	/******* all-patient****/	
+	.all-patient-indent{
+		text-indent: -408px!important;
+		display: inline-block;
+	}
+	.main-filter .title > span{width:100%;}
+	.main-filter .title > form{padding:0px;}
+	/********* new-design-changes *********/
+	.patient-list{min-width:1050px;}
+	/********* new-timeline **********/
+	.profile-img-info{float:left;width:100%;}
+	.right-create-patient{width:35%;}
+	.profile-right{width:inherit;}
+	.add-field{bottom: inherit;margin-top:24px;margin-right:2px;}
+	.add-field{position:fixed;z-index: 100;}
+	.add-field ul.dropdown-menu{bottom:0px;top:inherit;}
+	/* patient alphabet */
+	.right-create-patient{width:34%;}
+	.patient-alpha{position:static;padding:0px;}
+	.profile-right{width:inherit;}
+	.access-portal-label{width:100%;color:#222222;display:block;}
+	.access-portal-content{display:block;}
+	.pull-i{margin-left:0px!important;float:left;}
+	/****** new setting *********/
+	.setting-flag {width: 24%;}
+	.setting-flag-no {width: 70%;}
+	/****** new survey *********/
+	.stats-section{border-bottom: 1px solid #ececec;display: inline-block;width: 33%;}
+	.sales-accordian .accordion-head .accordian-section{height:auto;}
+}
+@media (min-width:768px) and (max-width:991px){
+	.right-menu{display:block;margin-right:0px;margin-top:20px;}
+	.navbar-right{display: none;position: absolute;right: 30px;top: 37px;width:200px;border:1px solid #ddd;z-index:99;border-radius:5px;overflow:hidden;}
+	.navbar-right > li{float: left;width: 100%;border-radius:0px;border-bottom:1px solid #ddd;}
+	.navbar-right > li:last-child{border:none;}
+	.navbar-right > li a{border:none;float: left;width: 100%;border-radius:0px;}
+	.notification{padding:0px 20px!important;font-size:13px!important;text-align:left;}
+	.navbar-right i{display:none;}
+	.notification span{top:8px;right:4px;}
+	.search{margin-right:5px;}
+	/***new-icon***/
+	.notification{padding:0px 0px!important;font-size:18px!important;text-align:center;}
+	/***new-icon***/
+	
+	.logout {margin-left: 5px;}
+	.right-menus .header-unselect-btn.setting span{display:none;}
+	.noti-icon.notification i{font-size:17px;}
+	.noti-icon.notification, .right-menus .header-unselect-btn.setting{padding: 0 13px !important;width:50px;}
+	
+	.right-menus .header-unselect-btn.setting{padding: 0 13px !important;width:42px;}
+	ul.nav li a{padding:18px 6px 10px 6px;}
+	ul.main-navbar li a{padding:18px 6px 10px!important;}
+	.inverntory-form-inputbox, .inverntory-form-title-col, .inverntory-form-selectbox{width: 108px!important;}
+	.inventory-title-fixed .search{width:194px;}
+	.inventory-title-fixed .search input{width:150px;display:table-cell;}
+	.filter-outer.calender-filter{text-align:left!important;}
+	.filter-outer.calender-filter label{width:100%;display:block;padding-left:0px;}
+	.filter-outer.calender-filter .form-group{width:32%;}
+	.filter-outer.calender-filter .form-group #clinic-filter{width:100%!important;}
+	.filter-outer.calender-filter .form-group .input-outer{width:100%;}
+	.calender-filter-no-outer-style li input{width:auto;}
+	ul.sub-menu li a{padding:15px 7px 15px 6px!important;}
+	#resource_schedule #add-more-form{padding:0px;}
+	#resource_schedule #add-more-form input{padding:7px 8px 8px;}
+	.procedure-popup-edit-timeline .timeline-left, .procedure-popup-edit-timeline .timeline-right{border:none;}
+	.procedure-popup-edit-timeline .dot{display:none;}
+	.procedure-popup-edit-timeline .timeline-left img{width:auto;}
+	.procedure-name-time{min-width: 265px;}
+	.sales-left{width:220px;min-width:220px;}
+	ul.sales-menus{padding:5px 20px 10px 0px;}
+	/*********header-changes***********/
+	.navbar-brand{width:auto!important;}
+	.right-menus .noti-icon{padding:18px 9px 10px 9px!important;}
+	#resend_portal_mail{float: left!important;width:100%;}
+	.inventory-title-fixed .search .field-outer{display:table;}
+	.inventory-title-fixed .search .stack-search{display:table-cell;}
+}
+@media(max-width:991px){
+	.patinet-logo img{height:100px;margin:0px auto 50px;}
+	.popup-white .form-group{margin-bottom:10px;padding-bottom:10px;}
+	.popup-white{padding:20px;}
+	.popup-edit-form{width:90%;}
+	.title > span{margin-bottom:10px;margin-right:5px;}
+	.search{padding:0px;}
+	/************************* patient-profile ***************************/
+	.go-back{margin-right:4px;margin-bottom:10px;}
+	.go-back span{display:none;}
+	.timeline-left img{width:100%;height:auto;}
+	.timeline-left{text-align:left;}
+	.right-images{max-width:100%;}
+	.right-images > div img{max-width:100%;width:100%;}
+	.title > span.date{width:auto!important;}
+	.edit-user-outer label{padding:14px 5px!important;}
+	.user-fixed-btns{background: #fff none repeat scroll 0 0;left: 8%;margin-right: 0;margin-top: 63px;position: absolute;right: 6%!important;text-align: right;top: -3px!important;padding: 10px 0px;}
+	.popup-three-btns input{margin-right:0px!important;}
+	.edit-form-top-margin{margin-top:62px;}
+	.pt-clone .form-sel{position:relative;}
+	.pt-clone .sub-col span.caret-pos{position:absolute;top:6px!important;right:0px;}
+	.pt-clone .sub-col{padding:15px 10px;}
+	.procedure-popup-edit-timeline{width:90%!important;}
+	.filter-outer.calender-filter label{padding-left:0px!important;}
+	.chng-plan .subs-box {width: 47.5%!important;}
+	.pro-time span { position:static;}
+	.time-line div.timeline-outer:first-child .procedure-name-time, .time-line div.timeline-outer .procedure-name-time{background:none;}
+	.procedure-name-time{position:static;margin:0px;padding:0px;display: inline-block;}
+	.procedure-name-time-top {margin-bottom: 0px;margin-top: 0;padding: 0 20px!important;}
+	.timeline-left, .timeline-right{padding-bottom:20px!important;}
+	.timeline-outer{background:none;}
+	.timeline-detail{margin:20px 0 0px;}
+	.trac-right-btn-outer{max-width:100%;}
+	.timeline-outer{margin-bottom:47px;border-bottom:2px solid #2682c5;}
+	.procedure-name-time {width:78%;}
+	.pro-name-section {max-width:213px;}
+	.proc-cost{position: static;text-align:left;margin-left:0px;}
+	ul.setting-menus li{display:block;border-bottom:1px solid #ddd;}
+	ul.setting-menus{border:none;}
+	.procedure-popup-edit-timeline .carousel.slide{width:100%!important;}
+	/*********header-changes***********/
+	.right-menus .header-user-outer{padding-right: 10px !important;}
+	.left-new-menu{min-height:inherit!important;}
+	/************** duplicate-patient *************/
+	.duplicate-patient-list{min-width:991px;}
+	.merge-info{display:none;}
+	.merge-final-info{margin-bottom:15px;float:left;width:100%;}
+	.left-new-menu{min-height:inherit!important;}
+	.setting-tabs a{padding:15px 5px;}
+	/********* new-timeline **********/
+	.proc-cost{width:auto;}
+	.timeline-left, .timeline-right{border:none;}
+	.patient-left, .patient-right{display:table-cell;float:none;}
+	.patient-count{margin-right:-10px;}
+	.Merge-Duplicate-Profiles{margin-left:10px!important;}
+	.title.dashboard-title .hello-text{width:100%!important;float:left;}
+
+	/* patient alphabet */
+	.search{width:auto;}
+	.patient-alpha{float:right;margin-top:0px}
+	.pull-i{margin-left:0px!important;float:right;}
+	.user-activity-filter{width:100%;}
+	.user-activity-filter .search{padding:0px;}
+	/* patient alphabet */
+	.search{width:auto;}
+	.patient-alpha{float:right;margin-top:0px}
+	#returning-customers {margin: 6px 0 -27px -6px;}
+	.Returning-date-price {left: 220px;}
+	.wallet-wrapper{width:90%;}
+	.market-stats-heading{text-align:left!important;}
+	
+	.health-name-top{display:none;}
+	#Health_Timeline {padding-left: 24px;padding-top: 0px;}
+	.health-trac-right{margin-top:30px;}
+	#Health_Timeline .timeline-right {padding-bottom: 54px!important;}
+	.hlth-outer{background-image:inherit!important;}
+	.profile-right .header-select-btn{padding: 0px 10px!important;}
+	.add-prcedure-fixed{right: 0px;width: 90%;margin-right: 5%;}
+	.filter-multiselect ul.multiselect-container{max-width:490px!important;}
+	/****** new setting *********/
+	.cancel-fee{text-align:left;margin-bottom:10px;}
+	.main-profile-picture{position:relative;margin-bottom:40px;left:0px;}
+	.profile-detail-left{padding-left:15px;}
+	.setting-left-menu{width:27%;}
+	.setting-setion{width:70%;}
+	.busines-detail-left{margin-bottom:40px;}
+	.table-min-width{min-width:600px;}
+	
+	.portal-numbers{font-size:40px!important;}
+	.sms-btn{margin-bottom: 49px;margin-top: -10px!important;float: left;}
+	/*********** gift-card ************/
+
+	.gift-card-logo{top: 92px;}
+	.gift-card-logo img{max-height:50px;}
+	.gift-amount{right: 0px;top: 11px;width: 100px;}
+	.gift-amount-span{font-size: 15px;}
+	.gift-amount-label{font-size: 34px;line-height: 37px;}
+	.profile-right .header-select-btn{padding: 0px 10px!important;}
+	.add-prcedure-fixed{right: 0px;width: 90%;margin-right: 5%;}
+/****** new survey *********/
+	.stats-section{border-bottom: 1px solid #ececec;display: inline-block;width: 50%;}
+	.cashdrawer-submenu{margin-bottom:50px;padding-right:0px;}
+	.invoice-discraimer{padding-right:15px;}
+	.multiselect-container li{width:33%!important;}
+	.drop--down-outer{margin-bottom:5px!important;}
+	/**************** new pos ****************/
+	.bank-account, .edit-account{margin-top:20px;float:none;}
+	.pos-enable-disable{margin:11px 0px 11px;width:100%;}
+	.pos-enable-disable > span{width:80%;}
+	/***** POS details ********/
+	.payout-bank-account{float:left!important;}
+}
+@media(max-width:767px){
+	.button{display:block;}
+	.popup-btns{position:absolute;right:20px;top:10px;text-align: right;}
+	.popup-form{margin-top:60px;}
+	.edit-form-outer input[type=text], .edit-form-outer input[type=file], .edit-form-outer input[type=password], .edit-form-outer label{width:50%;}
+	.edit-form-outer .row > div{display:flex;}
+	.edit-form-outer .row p{width:50%;float:left;}
+	.export-pro .read-only p{width:100%;}
+	.main-eror{top:0px;}
+	.navbar-collapse{background:#fff;position:relative;z-index:100;}
+	ul.nav {margin-top: 0px;}
+	.nav > li{border-bottom: 1px solid #ddd;}
+	.nav > li:hover {background: #e9f4f9!important;}
+	.navbar-form.search.search{float:left; width:100%; margin-bottom:10px;}
+	.navbar-form{padding:0px;}
+	.field-outer{display:table; width:100%;}
+	 .field-outer i{width:40px;text-align:center;}
+	.field-outer .form-control, .field-outer i{display:table-cell;}
+	.title > span{margin-bottom:10px;}
+	ul.nav li a.setting, ul.nav li a.logout, ul.nav li a.notification{text-align:left;width:auto;border:none;font-size:13px!important;text-transform: inherit;width:100%;}
+	.setting i, .logout i, .notification i{display:none;}
+	.header-select-btn{margin-left:0px;}
+	.nav > li > a.header-unselect-btn:hover{border:none;background:none!important;color:#0f66a5!important;}
+	ul.nav{margin-bottom:0px;}
+	.nav > li:hover a, .header-unselect-btn{background:none;}
+	.notification span{top:12px;}
+	.title .header-select-btn{margin-left:5px;}
+	.content {padding:0 30px 20px;}
+	ul.sub-menu li{display:block;border-bottom:1px solid #ddd;}
+	ul.sub-menu{border:none;}
+	footer ul, footer span{width:100%;text-align:center;}
+	footer ul li a{padding:5px 15px;}
+	ul.sub-menu li a{padding: 15px 0;}
+	.edit-form-outer .row a.resetpwd{padding:10px 20px; font-size:13px;}
+	.right-menu, .Support{display:none;}
+	.navbar-right{display:block;}
+	.profile-outer, .patient-left, .patient-right{display:block;width:100%;padding:10px 0px;}
+	header img{margin:0 auto 0px;}
+	.action-required .action label{display:block;margin-top:5px;}
+	.action-required .action{position:relative;}
+	.action-required .action .action-icon{position: absolute;right: 10px;top: 10px;}
+	.action-required .action label.pull-right{position: absolute;right: 38px;top: 10px;}
+	.popup-title{height:auto;min-height:60px;}
+	.pop-detail-text{margin-bottom:0px!important;}
+	.popup-form{margin-top: 0px;}
+	.popup-white{padding: 0 20px 20px;}
+	.male-female label{width:auto!important;}
+	.calender-form-icon{display:none;}
+	.time-line{height:auto;}
+	select#product_type, input#custom_time{width:100%!important;}
+	#main_content_area{float:left;width:100%;}
+	.right-menus{float:none;}
+	.noti-popup{display:none!important;}
+	header ul.right-menus li .show-desktop{display:none!important;}
+	header ul.right-menus li .show-mobile{display:block!important;}
+	.drag-drop-3col-table .drag-discrip{width:79%;padding-left:30px;}
+	.drag-drop-3col-table .drag-number{width:18%;}
+	.returning-customers #container{margin-left:-30px;}
+	.returning-customers #chartContainer{overflow:hidden;}
+	.search #sel-clini{width:100%;}
+	.title > span{margin-bottom:10px;width:100%;}
+	.checktoallow{width:87%!important;font-weight:normal!important;}
+	.edit-form-outer .front_image, .edit-form-outer .signature_image{float:none!important;margin:5px auto!important;}
+	/*********header-changes***********/
+	.navbar-toggle{margin-top: 11px;}
+	header ul.nav {float:none;}
+	.nav-outer{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-direction:column;}
+	.right-menus{-webkit-box-ordinal-group: 2;-moz-box-ordinal-group: 2;-ms-flex-order: 2;-webkit-order: 2;order: 2;}
+	.main-navbar{-webkit-box-ordinal-group: 1;-moz-box-ordinal-group: 1;-ms-flex-order: 1;-webkit-order: 1;order: 1;}
+	#content {padding-top: 12px !important;clear:both;}
+	.navbar-brand{width:auto!important;}
+	#ProductAddProductForm{display:block!important;}
+	.arow-link-outer > ul{position:static;border:none;width:auto;}
+	.header-user-dropdown{display:block;}
+	ul.nav .arow-link, .arow-link-outer{display:none!important;}
+		/********* new-design-changes *********/
+	.total-patients, .srch-outer, .right-create-patient, .right-create-patient > div{width:100%;float:left;}
+	.right-create-patient a{margin-left:5px;}
+	/************** duplicate-patient *************/
+	.duplicate-search{margin-top:5px;}
+	.duplicate-search .navbar-form.search{padding: 0px 0px 0px 15px;}
+	.filter-or{margin:10px 0px;}
+	.new-small-model{width:93%;}
+	.merge-steps{text-align:left;padding-top:20px;position:relative}
+	.merge-steps li a{display:none;padding: 0 10px 10px;}
+	.merge-steps li.merge-sel a{display:inline-block;}
+	.merge-steps li .header-select-btn{display:inline-block;position: absolute;right: 0;top: 17px;}
+	.section-title-p{margin-left:0px;padding-left:0px;margin-top:3px;display: block;border:none;}
+	.or-left{padding-left:15px;}
+	.or-right{padding-right:15px;}
+	.pro-procedure-image{float:none;display: block;margin-bottom:7px;}
+	.xs-popup{width:400px;}
+	.cus-pro-match{width:100%!important;}
+	.pro-procedure-content {padding-left: 0px;}
+	.setting-tabs{border:none;height:auto;float:left;width:100%;}
+	.setting-tabs li {display: block;float: left;width: 100%;}
+	.setting-tabs li a{text-align:left;border-bottom:1px solid #dddddd;float:left;width:100%;}
+	/********* new-timeline **********/
+	.more-info-profile-dropdown{width:auto!important;margin-left:5px;}
+	.profile-outer, .patient-left, .patient-right{display:block;width:100%;padding:10px;float:left;}
+	/* patient alphabet */
+	.search{width:100%;}
+	.srch-wid-alpha{text-align:left;}
+	.srch-wid-alpha .filter-count{margin-left:15px;}
+	.right-create-patient{float:right;width:auto;margin-top:-40px;}
+	.patient-alpha{text-align:center;margin-bottom:0px;}
+	.patient-alpha li{width:7.5%;}
+	.search-popup{width:auto;}
+	.add-field{bottom: inherit;margin-top:108px;margin-right: -11px;}
+	.date.this-month{font-size:14px;margin-top:3px;float:left!important;margin-top:-90px;font-size:14px!important;padding:13px!important;}
+	.dashboard-title #reportrange{margin-top:0px;margin-bottom: 12px!important;}
+	.right-menus-a{width:100%!important;height:auto!important;}
+	.start-program{width: 90%;left: 5%;margin-left: 0px;}
+	/****** new setting *********/
+	.no-ques-margin{margin-bottom:30px;}
+	.setting-flag, .setting-flag-no{float:none; display:inline-block;}
+	.setting-left-menu, .setting-setion{width:100%;}
+	.min-width-767{min-width:750px;}
+	.card-exp-date{ display:inline-block;}
+	.work_as_provider_container{padding:20px 15px 2px!important;}
+	.change-pwd-outer{padding-left:15px;}
+	/****** new survey *********/
+	.stats-section{display:block; width:100%;float:left;border-left:none;}
+	.multiselect-container li{width:50%!important;}
+	.drawer-history-field{width:49%;}
+	.cash-drawer-title, .cash-history-btn{margin-bottom:10px;}
+	
+	header .navbar-header .navbar-toggle{display:block!important;}
+	ul.nav li a {padding: 9px 4px 9px 15px!important;height:auto!important;}
+	header ul.nav li a:hover, header ul.nav > li.active a{background:none!important;border:none!important;color:$blue;}
+	
+}
+@media(max-width:600px){
+	.main-profile{padding:0px 0px 25px;}
+	.profile-pic{margin:20px;}
+	.header-btns{width:100%;text-align:right;}
+	.content{padding:0px 15px 20px;overflow:hidden;}
+	.popup-edit-dp{margin:0px 20px 0px 0px;}
+	.total-patients{margin-top:3px;}
+	.total-patients span{display:block;margin-left:0px;}
+	.filter-outer .dropdown{float:left;width:100%; margin-bottom:10px;}
+	.filter-outer .add-field{width:auto;}
+	.total-patients span{margin-top:0px;}
+	#provider_schedule .pt-clone input{margin-bottom:10px;background:none;}
+	#sig-div canvas {height: 150px;width: 100%;}
+	.clr-rest {bottom: -99px;position: absolute;right: -6px;width: 50%;}
+	.pop-detail-text{margin-top: 34px;}
+	.appointment-outer > div{display:block!important;}
+	.appoint-right {padding-left:0px!important;margin-top:20px;}
+	.appoint-left {width: 220px;text-align: center;margin: auto;}
+	.popup-title{position:relative;}
+	.iziModal-content{padding-top:0px!important;}
+	.all-patient-indent{text-indent:0px!important;display: inline-block;}
+	.appoint-pro-edit{max-height: 230px;}
+	
+	.sales-right .sales-calender-button{width:100%;}
+	.employee_dropdown .ms-options-wrap{position:inherit!important;}
+	body .employee_dropdown .ms-options {width: 100%!important;left:0px;right:0px;}
+	/****** new setting *********/
+	.search-bg{width:100%; margin-bottom:10px;}
+	.setting-custom-switch{width:100%;margin-top:10px;}
+	.setting-container{padding:25px 15px 35px;}
+	.setting-wrapper{padding:0px 15px 20px!important;}
+	.switch-accordian-row{padding:17px 65px 17px 15px;}
+	.switch-accordian-row .setting-switch{right:15px;}
+	.choice-question-row{width:100%;margin-left:-13px;}
+	.quest-img-title{margin-left:-13px!important;}
+	.crossIcon {margin-top: 0px;margin-right: 0px;}
+}
+@media (min-width:480px) and (max-width:767px){
+	.edit-form-outer .row select{width:50%;float:left;}
+	.edit-form-outer .row > div > div{width:50%;float:left;}
+	#PatientNoteForm textarea, #PatientDocumentDescription{width:50%!important;float:left;}
+}
+@media(max-width:530px){
+	.profile-title .header-select-btn, .more-info-profile-dropdown{
+	text-align: center;
+    width: 100%;
+    margin-bottom:10px;
+	}
+	.search-with-dropdown{width:100%;}
+	.booking-search-outer{width: 52%;}
+	.booking-drop-down {width: 48%;}
+	.multiselect-container li{width:100%!important;}
+}
+@media(max-width:480px){
+	.patinet-logo img{height:100px;margin:0px auto 50px;}
+	.login-content {padding: 0px 30px 20px;}
+	.login-form{width:96%;}
+	.field-outer{width:100%;}
+	.field-outer input, .field-outer select{width:80%;}
+	.edit-form-outer input[type=text], .edit-form-outer input[type=password], .edit-form-outer label{width:100%;}
+	.edit-form-outer .row > div {display: block;}
+	.edit-form-outer .row p {width:100%;float:left;}
+	.edit-form-outer{border:none;}
+	.edit-form-outer label{background:none;min-height:inherit;padding:14px 0px 0px;font-weight:600;border:none;}
+	.edit-form-outer input, .edit-form-outer select, .edit-form-outer input[type=file], .edit-form-outer .row p{padding:14px 0px;}
+	.edit-form-outer input.btn{padding:7px 15px 8px;} 
+	.dropdown{margin-bottom:10px;}
+	.dropdown, .dropdown button{width:100%; text-align:left;}
+	.form-group{width:100%; margin-bottom:10px;}
+	.header-select-btn{width:100%; text-align:center;}
+	.title .header-select-btn {margin-left:0px;}
+	.dropdown i{position: absolute;right: 5px;}
+	.pull-right > .dropdown-menu {left: auto;right: inherit;}
+	.timeline-content h2 {font-size: 16px;}
+    .title a{margin-bottom:10px;}
+    #apply-filter{margin:5px 0px;}
+    .edit-form-outer{background:none;}
+    .edit-form-outer input[type=text], .edit-form-outer input[type=password], .edit-form-outer .row > div > div{border:none;}
+	.field-pic .dropzone-label {min-height: inherit;}
+	.field-pic .dropzone {margin-left: -15px;}
+	.popup-subtitle{float:left;width:100%;}
+	.save-reset-btns{width:100%;}
+	.save-reset-btns input{margin-bottom:7px;}
+	.edit-form-outer .row select{border-left:none;}
+	.edit-form-outer textarea {border-left: none;padding:10px 0px;}
+	.textarea, .textarea-label{height:auto;}
+	.edit-form-outer .pro-img-label{min-height: inherit;}
+	.edit-form-outer .pro-img-dropzone {display: flex;float: left;margin: 5px auto !important;}
+	#appointment-form{padding:0 20px 20px!important;}
+	.popup-form {margin-top: 0px;}
+	.pop-detail-text p{margin-top:5px!important;}
+	.edit-form-outer .row > div > p{border-left:none;}
+	.male-female label{width:auto!important;margin-left:5px!important;margin-right:10px!important;padding-top:0px;}
+	.member-type label{width:auto!important;margin-left:5px!important;margin-right:10px!important;padding-top:0px;}
+	.pop-detail-text a{display: inherit;}
+	.pop-detail-text p{margin-bottom:6px;}
+	.edit-form-outer .row > div > div{ min-height: inherit;float:left;}
+	.member-type{padding:0px!important;float:left;margin-top:10px;}
+	.member-type input {margin-top: 3px;}
+	.member-type, .dropzone{float:left;}
+	.popup-subtitle{margin:5px 0px;}
+	.edit-form-outer .row select{width:100%;padding:12px 0px;}
+	.edit-form-outer .row > div > div{width:100%;}
+	.field-pic .dropzone-label{min-height: inherit!important;}
+	.field-pic .dropzone{margin-left:-15px!important;}
+	.choice .chosen-container-multi .chosen-choices{padding: 11px 0px;}
+	#patient_treated_date{padding-left:0px!important;}
+	.go-back{margin-right:0px;}
+	.duplicate-patient-pro{min-height: 98px !important;padding-left:0px;padding-right:0px;}
+	.edit-form-outer .row .read-only{min-height:50px;padding:14px 0px 0px;}
+	.med-history-left{display:none;}
+	.med-history .med-history-right-label label{display:block;color:#444;}
+	.app-history{margin-top:36px;}
+	.edit-form-outer textarea{width:100%;}
+	.export-pro img{margin-left:0px;margin-top:23px;}
+	.export-pro input[type="checkbox"]{margin-left:-9px;}
+	.popup-title-name{text-indent: -71px;display: block;}
+	.popup-title-top-margin{margin-top:44px;display:block;}
+	#showBelowStock{margin-left:-15px;}
+	#add-more-form, #add-duration-form{padding:0px;}
+	#add-more-form input, #add-duration-form input{border-left:none!important;border-bottom:1px solid #ececec;}
+	.m-btm-top .form-inner > div.col-xs-4{padding:15px 5px;}
+	#provider_schedule .pt-clone .cross-opt{top:18%;}
+	#equipment_schedule .pt-clone .cross-opt{top:18%;}
+	.equip-schedule, .equip-schedule .col-xs-4, .equip-schedule .col-xs-4 .col-xs-8{float:left!important;width:100%;display:block!important;}
+	.pop-detail-text a{display:block!important;border:none!important;padding:2px 15px!important;top:3px!important;}
+	.popup-three-btns{margin-left: 33px;left:0px;}
+	.edit-user-outer{margin-top:128px;}
+	.popup-three-btns{position:relative;margin-top:3px;padding-bottom:0px;}
+	.Privileges{display:block;}
+	.Privileges .table-cell{display:block;width:100%;}
+	.add_ques{margin-right:0px!important;}
+	.del-save{text-align:center;}
+	.del-save .header-select-btn{width:48.5%;}
+	.view-ques-outer{margin-top: 45px;}
+	.edit-pre-treat{margin-top:60px;}
+	.edit-user-outer label {padding: 14px 0px !important;}
+	.drag-drop-3col-table .drag-discrip{width:75%;padding-left:30px;}
+	.drag-drop-3col-table .drag-number{width:21%;}
+	.drag-drop-3col-table{min-width:400px;}
+	.returning-customers #container{margin-left:-39px;width:200px;}
+	.procedure-name-time-top > .modal-link{margin-bottom:10px;}
+	.more-info-profile-dropdown button{text-align:center;}
+	.popup-title .header-select-btn{width:auto;}
+	.edit-form-outer .front_image, .edit-form-outer .signature_image{float: left!important;}
+	.sales-left{min-width:273px;}
+	.hint{text-align:left;}
+	.view-sign{width:auto;}
+	/** new-design-changes **/
+	.filter-outer .dropdown{width:100%;}
+	.right-create-patient .header-select-btn{margin-left:0px;}
+	.new-popup-field-outer{width:100%;}
+	.new-popup-field-outer .form-group{margin-left:0px;}
+	.new-popup-form-section{padding:0px;}
+	.merge-steps{margin-bottom:40px;}
+	.merge-steps li .header-select-btn{top:68px;}
+	.merge-pic{margin-right:10px;}
+	.add-field button{width:27px;text-align:center;}
+	.add-field{float: none;text-align: center;width: auto!important;}
+	.header-cancel-btn{width:auto;}
+	.default-input, .custom-input, .removable-input{width:100%;margin-right:0px;}
+	.xs-popup{width:90%;}
+	.cus-pro-match{padding-top: 4px!important;}
+	/********* new-timeline **********/
+	.more-info-profile-dropdown {width: 100% !important;}
+	.right-create-patient .header-select-btn{margin-bottom:5px;}
+	/* patient alphabet */
+	.right-create-patient{width:100%;margin:0px 0px 10px;}
+	.date.this-month{margin-top: -71px;padding:0px!important;}
+	.dashboard-title #reportrange{margin-bottom:35px!important;margin-top:-70px;}
+	.dashboard-title .search{padding:0px 0px;}
+	.dashboard-title .col-sm-12.col-md-4{padding:0px!important;}	
+	.dashboard-title .dash-filter-outer{float: left;width: 100%;margin-top: 70px;padding:0px;}
+	.dashboard-title{margin: 0px -10px;}
+	.footer-static a, .footer-sticky a, .footer-static button, .footer-sticky button, .footer-static input, .footer-sticky input{width:100%;margin-bottom:10px;}
+	.report-title-discription{padding-right:0px;margin-bottom:40px;}
+	.juvly-title-span{display:block;margin-bottom:10px;}
+	.business-hours-outer .col-xs-4{padding:0px;}
+	.business-hours-outer .hours-time{width:38px;}
+	.business-hours-outer .hours-pm{width:38px;	padding-right:10px;}
+	.business-hours-outer .setting-week{font-size:11px;}
+	.business-hours-outer .new-check{margin:0px 2px;}
+}
